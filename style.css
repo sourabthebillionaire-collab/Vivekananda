@@ -234,9 +234,9 @@ footer ul li a:hover{color:var(--saffron);}
   .nav-cta{display:none;}
   .burger{display:block;}
   .navrow{gap:14px;}
-  .brand-mark{width:38px;height:38px;}
-  .brand-text .name{font-size:15.5px;}
-  .brand-text .sub{font-size:9px;white-space:nowrap;}
+  .brand-mark{width:36px;height:36px;}
+  .brand-text .name{font-size:15px;}
+  .brand-text .sub{display:none;}
   .hero .wrap{grid-template-columns:1fr;padding-bottom:40px;}
   .hero-visual{margin-top:20px;}
   .qv-grid{grid-template-columns:repeat(2,1fr);transform:none;margin-bottom:0;margin-top:36px;}
@@ -265,4 +265,5 @@ footer ul li a:hover{color:var(--saffron);}
 }
 @media (max-width:360px){
   .brand-text .sub{display:none;}
-}
+  }
+  
